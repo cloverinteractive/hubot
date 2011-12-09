@@ -18,7 +18,9 @@
     "hubot-partychat-hooks": "0.2.1",
     "hubot": "2.0.5",
     "hubot-scripts": "2.0.3",
-    "optparse": "1.0.3"
+    "optparse": "1.0.3",
+    "htmlparser": "x",
+    "soupselect": "x"
   }
 }
 

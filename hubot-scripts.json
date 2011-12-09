@@ -1,6 +1,5 @@
 [
   "redis-brain.coffee"
-, "9gag.js"
 , "ackbar.coffee"
 , "adult.coffee"
 , "abstract.coffee"
