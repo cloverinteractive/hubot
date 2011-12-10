@@ -1,6 +1,5 @@
 [
   "redis-brain.coffee"
-, "ackbar.coffee"
 , "adult.coffee"
 , "abstract.coffee"
 , "achievement_unlocked.coffee"

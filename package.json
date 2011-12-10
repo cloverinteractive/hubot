@@ -19,8 +19,9 @@
     "hubot": "2.0.5",
     "hubot-scripts": "2.0.3",
     "optparse": "1.0.3",
-    "htmlparser": "x",
-    "soupselect": "x"
+    "htmlparser": "1.7.3",
+    "soupselect": "0.2.0",
+    "hashlib": "1.0.1"
   }
 }
 
