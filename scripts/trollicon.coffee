@@ -11,4 +11,4 @@ module.exports = (robot)->
       message.send text
 
 send_trollicon = (message, location, response_handler)->
-  return response_handler 'lol'
+  return response_handler 'https://github.com/aalvarado/trollicons/raw/master/Icons/Laughing/LOL-lol-LOL.png'
