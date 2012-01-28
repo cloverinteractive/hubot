@@ -4,6 +4,11 @@
 
 Select      = require( "soupselect" ).select
 HTMLParser  = require "htmlparser"
+trollicons = {
+  gasp : 'http://i.imgur.com/tYmuZ.png',
+  challenge: 'http://i.imgur.com/jbKmr.png',
+  lol : 'http://i.imgur.com/WjI3L.png'
+}
 
 module.exports = (robot)->
   robot.respond /trollicon( me)?/i, (message)->
@@ -11,4 +16,4 @@ module.exports = (robot)->
       message.send text
 
 send_trollicon = (message, location, response_handler)->
-  return response_handler 'https://github.com/aalvarado/trollicons/raw/master/Icons/Laughing/LOL-lol-LOL.png'
+  return response_handler trollicons.message if trollicons.message
