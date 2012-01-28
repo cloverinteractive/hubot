@@ -16,4 +16,5 @@ module.exports = (robot)->
       message.send text
 
 send_trollicon = (message, location, response_handler)->
-  return response_handler trollicons.message if trollicons.message
+  #return response_handler trollicons.message if trollicons.message
+  return response_handler 'lol'
