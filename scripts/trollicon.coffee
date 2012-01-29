@@ -7,10 +7,7 @@ trollicons = {
   'lol' : 'http://i.imgur.com/WjI3L.png'
 }
 
-robo_inst = undefined
-
 module.exports = (robot)->
-  robo_inst = robot
   robot.respond /trollicon( me)?/i, (message)->
     send_trollicon message, false, (text)->
       message.send text
