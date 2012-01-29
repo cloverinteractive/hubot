@@ -9,9 +9,5 @@ trollicons = {
 
 module.exports = (robot)->
   robot.respond /trollicon( me)?/i, (message)->
-    send_trollicon message, false, (text)->
-      message.send text
+    'lol'
 
-send_trollicon = (message, location, response_handler)->
-  return response_handler trollicons[message] if message of trollicons
-  return response_handler message
