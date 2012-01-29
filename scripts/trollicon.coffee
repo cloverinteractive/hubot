@@ -1,9 +1,6 @@
 ﻿# trollicon - Returns a trollicon image
+# by Adan Alvarado
 
-# Rewrite by Adan Alvarado
-
-Select      = require( "soupselect" ).select
-HTMLParser  = require "htmlparser"
 trollicons = {
   'gasp' : 'http://i.imgur.com/tYmuZ.png',
   'challenge': 'http://i.imgur.com/jbKmr.png',
@@ -16,5 +13,6 @@ module.exports = (robot)->
       message.send text
 
 send_trollicon = (message, location, response_handler)->
+  robot.logger.info 'test logger msg'
   return response_handler trollicons[message] if message of trollicons
   return response_handler 'lol'
