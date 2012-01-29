@@ -5,9 +5,9 @@
 Select      = require( "soupselect" ).select
 HTMLParser  = require "htmlparser"
 trollicons = {
-  gasp : 'http://i.imgur.com/tYmuZ.png',
-  challenge: 'http://i.imgur.com/jbKmr.png',
-  lol : 'http://i.imgur.com/WjI3L.png'
+  'gasp' : 'http://i.imgur.com/tYmuZ.png',
+  'challenge': 'http://i.imgur.com/jbKmr.png',
+  'lol' : 'http://i.imgur.com/WjI3L.png'
 }
 
 module.exports = (robot)->
@@ -17,3 +17,4 @@ module.exports = (robot)->
 
 send_trollicon = (message, location, response_handler)->
   return response_handler trollicons[message] if message of trollicons
+  return response_handler 'lol'
