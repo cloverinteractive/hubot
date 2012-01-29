@@ -16,6 +16,5 @@ module.exports = (robot)->
       message.send text
 
 send_trollicon = (message, location, response_handler)->
-  robo_inst.logger.info message
   return response_handler trollicons[message] if message of trollicons
-  return response_handler 'lol'
+  return response_handler message
