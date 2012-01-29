@@ -9,5 +9,5 @@ trollicons = {
 
 module.exports = (robot)->
   robot.respond /trollicon( me)?/i, (message)->
-    'lol'
+    message.send 'ello'
 
