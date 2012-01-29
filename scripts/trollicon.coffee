@@ -9,6 +9,6 @@ trollicons = {
 
 module.exports = (robot)->
   robot.respond /trollicon( me)?/i, (message)->
-    icon = message.match[2]
-    message.send icon
+    #icon = message.match[2]
+    message.send "#{message.match[3]} xxx"
 
