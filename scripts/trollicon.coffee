@@ -8,8 +8,8 @@ trollicons = {
 }
 
 module.exports = (robot)->
-  robot.respond /trollicon( me)?/i, (message)->
   robot.logger.info 'test logger msg'
+  robot.respond /trollicon( me)?/i, (message)->
     send_trollicon message, false, (text)->
       message.send text
 
