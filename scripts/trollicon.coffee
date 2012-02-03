@@ -22,6 +22,11 @@ trollicons = {
   'pokerface'  : 'http://i.imgur.com/dDjvG.png',
   'ok'         : 'http://i.imgur.com/QRCoI.png',
   'sadtroll'   : 'http://i.imgur.com/gYsxd.png'
+  'sadtroll'   : 'http://i.imgur.com/gYsxd.png',
+  'yuno'       : 'http://i.imgur.com/sZMnV.png',
+  'true'       : 'http://i.imgur.com/oealL.png',
+  'freddie'    : 'http://i.imgur.com/zszUl.png',
+  'forever'    : 'http://i.imgur.com/5MBi2.png'
 }
 
 module.exports = (robot)->
