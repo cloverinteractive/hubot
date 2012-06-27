@@ -15,7 +15,7 @@
   },
 
   "dependencies": {
-    "hubot-partychat-hooks": "0.3.0",
+    "hubot-partychat-hooks": "0.2.1",
     "hubot": "2.0.7",
     "hubot-scripts": "2.0.8",
     "optparse": "1.0.3",
