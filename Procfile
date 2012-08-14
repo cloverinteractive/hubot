@@ -1,1 +1,1 @@
-web: bin/hubot -a partychat-hooks -n hubot
+web: bin/hubot -a partychat-hooks -n jarvis
