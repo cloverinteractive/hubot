@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot earthquake (intensity|all|significant) (frequency) [limit]
+#   hubot quakes (intensity|all|significant) (period) [limit]
 #
 # Author:
 #   EnriqueVidal
@@ -19,8 +19,8 @@ module.exports = (robot)->
   robot.respond /quakes (([12](\.[05])?)|all|significant)? (hour|day|week|month)( \d+)?$/i, (message)->
     check_for_rapture message, message.match[1], message.match[4], parseInt( message.match[5] )
 
-  check_for_rapture = (message, intensity, frequency, limit)->
-    rapture_url = [ lookup_site, "earthquakes", "feed", "geojson", intensity, frequency ].join '/'
+  check_for_rapture = (message, intensity, period, limit)->
+    rapture_url = [ lookup_site, "earthquakes", "feed", "geojson", intensity, period ].join '/'
 
     message.http( rapture_url ).get() (error, response, body)->
       return message.send 'Sorry, something went wrong' if error
@@ -41,4 +41,3 @@ module.exports = (robot)->
     build_time = ( object )->
       time = new Date object.time * 1000
       [ time.getHours(), time.getMinutes(), time.getSeconds() ].join ':'
-
