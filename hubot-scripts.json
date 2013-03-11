@@ -23,10 +23,9 @@
 , "tweet.cofee"
 , "travis.coffee"
 , "uptime.coffee"
-, "weather.coffee"
-, "webshot.coffee"
 , "wikipedia.coffee"
 , "word-of-the-day.coffee"
 , "wordnik.coffee"
 , "xkcd.coffee"
+, "quakes.coffee"
 ]
