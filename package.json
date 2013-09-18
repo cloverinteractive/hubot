@@ -16,8 +16,8 @@
 
   "dependencies": {
     "hubot-partychat-hooks":  "0.4.0"
-,   "hubot":                  "2.4.8"
-,   "hubot-scripts":          "2.4.1"
+,   "hubot":                  "2.6.0"
+,   "hubot-scripts":          "2.5.6"
 ,   "optparse":               "1.0.1"
 ,   "githubot":               "0.2.1"
 ,   "soupselect":             "~> 0.2.0"
